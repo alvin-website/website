@@ -1,0 +1,373 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navbar{
+    background: #202833;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar_item{
+    height: 80px;
+
+}
+
+.navbar_links{
+    color: rgb(168, 168, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    font-size: large;
+    font-weight: 300;
+}
+
+.navbar_btn{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    font-size: large;
+    font-weight: 200;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #181a22;
+    color: #fff;
+}
+
+
+.button:hover{
+    background: #3a3a3a;
+    transition: all 0.3s ease;
+}
+
+
+.navbar_links:hover{
+    color: #8b99cb;
+    transition: all 0.3s ease;
+}
+
+.img{
+    width: 90px;
+    vertical-align: middle;
+}
+
+#navbar_logo{
+    margin-top: 8px;
+    color: white;
+    text-decoration-line: none;
+    font-size: 2rem;
+    vertical-align: middle;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+
+.main{
+    background-color: #0b0c10;
+   
+
+}
+
+.main_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #0b0c10;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+#Home{
+    font-weight: 400;
+    color: white;
+}
+
+.main_content h1{
+    font-size: 3.5rem;
+    color: white;
+    width: 650px;
+}
+
+
+.main_content h2{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(226, 226, 226);
+}
+
+.main_content p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(168, 168, 168);
+}
+
+
+.main_img_container{
+    text-align: center;
+
+}
+
+.btn{
+    background-color: #202833;
+    color: #fff;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 200px;
+}
+
+
+
+
+
+
+
+/*S*/
+
+.services{
+    background: #0b0c10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.services h1{
+    color: white;
+    margin-bottom: 2.8rem;
+    font-size: 2.5rem;
+   
+}
+
+.services_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services_card{
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('checklist.png');
+    background-size: cover ;
+    background-position: center;
+    position: relative;
+    color: white;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+.services_card:nth-child(2){
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('checklist2.png');
+    
+}
+
+.services h2{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+.services_card p{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.services_card button{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #383d53;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.services_card button a{
+    color: white;
+    text-decoration: none;
+}
+
+.services_card:hover{
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+
+
+
+.footer_container{
+    background-color: #202833;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer_links{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_link_wrapper{
+    display: flex;
+
+}
+
+.footer_link_items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    margin-right: 50px;
+    text-align: left;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.footer_link_items h2{
+    margin-bottom: 10px;
+}
+
+.footer_link_items > h2{
+    color: white;
+}
+
+.footer_link_items a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer_link_items a:hover{
+    color: rgb(190, 169, 170);
+    transition: 0.3s ease-out;
+    
+}
+
+
+.social_icon_link{
+    color: white;
+    font-size: 24px;
+}
+
+.social_media{
+    max-width: 1000px;
+    width: 100%;
+}
+
+.social_media_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto; 
+}
+
+.social_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.social_logo{
+    color: white;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.website_rights{
+    color: rgba(184, 176, 176, 0.701);
+    margin-left: 30%;
+
+}
+
